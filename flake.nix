@@ -20,7 +20,9 @@
             moreutils
             jq
             alejandra
-            lua
+            lua5_4
+            stylua
+            lua-language-server
           ];
         };
       }
