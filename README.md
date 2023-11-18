@@ -6,8 +6,8 @@ Also see my [Zig solutions](https://github.com/cideM/aoc2022-zig)!
 
 |     | Lua     |
 | --- | ------- |
-| 1   | :zzz:  |
-| 2   | :zzz:  |
+| 1   | :bell:  |
+| 2   | :bell:  |
 | 3   | :zzz:  |
 | 4   | :zzz:  |
 | 5   | :zzz:  |
