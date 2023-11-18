@@ -4,10 +4,10 @@ Also see my [Zig solutions](https://github.com/cideM/aoc2022-zig)!
 
 ## Progress (25/25)
 
-|     | Lua     |
-| --- | ------- |
-| 1   | :bell:  |
-| 2   | :bell:  |
+|     | Lua    |
+| --- | ------ |
+| 1   | :bell: |
+| 2   | :bell: |
 | 3   | :zzz:  |
 | 4   | :zzz:  |
 | 5   | :zzz:  |
@@ -34,14 +34,17 @@ Also see my [Zig solutions](https://github.com/cideM/aoc2022-zig)!
 
 ## Misc
 
-Post code on Reddit, first for Linux, second for MacOS.
+### Post Code on Reddit
+
+Copy the code (Linux & MacOS)...
 
 ```
 $ cat code | sed 's/^/    /' | xsel -b`
 $ cat code | sed 's/^/    /' | pbcopy`
 ```
 
-Turn it into a message:
+...and turn it into a message:
+
 ```text
 # [Lua]()
 
@@ -49,3 +52,7 @@ Turn it into a message:
 
 [GitHub Repository](https://github.com/cideM/aoc2017)
 ```
+
+### Disable Copilot
+
+Add `set exrc` to your Neovim configuration, then `echo 'let g:copilot_enabled=v:false' > .nvimrc`, open the file and `:trust` it.

@@ -22,6 +22,7 @@
             alejandra
             lua5_4
             stylua
+            nodePackages.prettier
             lua-language-server
           ];
         };
