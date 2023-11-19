@@ -2,13 +2,13 @@
 
 Also see my [Zig solutions](https://github.com/cideM/aoc2022-zig)!
 
-## Progress (25/25)
+## Progress (3/25)
 
 |     | Lua    |
 | --- | ------ |
 | 1   | :bell: |
 | 2   | :bell: |
-| 3   | :zzz:  |
+| 3   | :bell: |
 | 4   | :zzz:  |
 | 5   | :zzz:  |
 | 6   | :zzz:  |
