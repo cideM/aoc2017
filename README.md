@@ -1,8 +1,6 @@
 # :christmas_tree: Advent of Code 2017 :santa:
 
-Also see my [Zig solutions](https://github.com/cideM/aoc2022-zig)!
-
-## Progress (4/25)
+## Progress (5/25)
 
 |     | Lua    |
 | --- | ------ |
@@ -10,7 +8,7 @@ Also see my [Zig solutions](https://github.com/cideM/aoc2022-zig)!
 | 2   | :bell: |
 | 3   | :bell: |
 | 4   | :bell:  |
-| 5   | :zzz:  |
+| 5   | :bell:  |
 | 6   | :zzz:  |
 | 7   | :zzz:  |
 | 8   | :zzz:  |
@@ -32,27 +30,28 @@ Also see my [Zig solutions](https://github.com/cideM/aoc2022-zig)!
 | 24  | :zzz:  |
 | 25  | :zzz:  |
 
-## Misc
+## Make Reddit Code Snippet
 
-### Post Code on Reddit
-
-Copy the code (Linux & MacOS)...
+For longer code snippets, use https://topaz.github.io/paste/. If it's short enough, do this:
 
 ```
-$ cat code | sed 's/^/    /' | xsel -b`
-$ cat code | sed 's/^/    /' | pbcopy`
+$ cat code | sed 's/^/    /' | xsel -b
+$ cat code | sed 's/^/    /' | pbcopy
 ```
 
-...and turn it into a message:
+## Reddit Comment Template
 
 ```text
+[LANGUAGE: lua]
+
 # [Lua]()
 
 60 lines of code according to `tokei` when formatted with `stylua`.
 
-[GitHub Repository](https://github.com/cideM/aoc2017)
+- [GitHub Repository](https://github.com/cideM/aoc2017)
+- [Topaz Paste]()
 ```
 
-### Disable Copilot
+## Disable Copilot
 
 Add `set exrc` to your Neovim configuration, then `echo 'let g:copilot_enabled=v:false' > .nvimrc`, open the file and `:trust` it.
