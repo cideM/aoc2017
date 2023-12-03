@@ -1,6 +1,12 @@
 # :christmas_tree: Advent of Code 2017 :santa:
 
-## Progress (6/25)
+## Quickstart
+
+```shell
+$ fd . --no-hidden --no-ignore | entr -c -s 'lua d6/main.lua < d6/input.txt'
+```
+
+## Progress (7/25)
 
 |     | Lua    |
 | --- | ------ |
@@ -10,7 +16,7 @@
 | 4   | :bell:  |
 | 5   | :bell:  |
 | 6   | :bell:  |
-| 7   | :zzz:  |
+| 7   | :bell:  |
 | 8   | :zzz:  |
 | 9   | :zzz:  |
 | 10  | :zzz:  |
